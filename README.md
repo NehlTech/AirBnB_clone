@@ -188,7 +188,7 @@ No known bugs at this time.
 ## Authors
 
 Bright Adu-Boahene - [Github](https://github.com/NehlTech)  
-Gifty Appiagyei - [Github]
+Gifty Appiagyei - [Github](https://github.com/JessieJay7)
 
 ## License
 
