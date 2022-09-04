@@ -3,6 +3,8 @@
 
 import cmd
 from datetime import datetime
+from itertools import count
+from pyexpat import model
 import models
 from models.amenity import Amenity
 from models.base_model import BaseModel
@@ -102,6 +104,15 @@ class HBNBCommand(cmd.Cmd):
             print("]")
         else:
             print("** class doesn't exist **")
+
+    def do_count(self, arg):
+        """Usage: count <class> or <class>.count()
+        Retrieve the number of instances of a given class."""
+        args = shlex.split(arg)
+        count = 0
+        for value in models.storage.all().values():
+            count += 1
+            print(count)
 
     def do_update(self, arg):
         """Update an instance based on the class name, id, attribute & value"""
