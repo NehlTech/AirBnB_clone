@@ -77,7 +77,7 @@
   margin-bottom: auto;
 }
 
-.guest_image {
+.gimg {
   margin-left: auto;
   margin-right: auto;
   height: 50px;
@@ -85,7 +85,7 @@
   background: url("../images/icon_group.png") no-repeat center;
 }
 
-.bed_image {
+.bedImage {
   margin-left: auto;
   margin-right: auto;
   height: 50px;
@@ -93,7 +93,7 @@
   background: url("../images/icon_bed.png") no-repeat center;
 }
 
-.bath_image {
+.bathImg {
   margin-left: auto;
   margin-right: auto;
   height: 50px;
